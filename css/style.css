@@ -97,7 +97,7 @@ body::-webkit-scrollbar {
 }
 
 .d-block {
-    height: 800px;
+    height: 85vh;
 }
 
 #carouselExampleCaptions img {
@@ -293,8 +293,9 @@ body::-webkit-scrollbar {
 #contact {
     display: flex;
     justify-content: center;
-    height: 570px;
+    height: 850px;
     margin-top: 30px;
+    align-items: center;
 }
 
 .contact-form-input {
@@ -316,6 +317,10 @@ body::-webkit-scrollbar {
     justify-content: left;
     padding-top: 15px;
     padding-left: 5px;
+}
+
+.contact-text {
+    height: 60%;
 }
 
 .btn-primary {
@@ -383,12 +388,13 @@ body::-webkit-scrollbar {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .contact-header-socialmedia {
         margin-right: 10px;
     }
     #contact {
         height: 900px;
+        align-items: flex-start;
     }
     .contact-form-input {
         width: 100%;
